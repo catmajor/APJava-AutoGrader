@@ -15,6 +15,11 @@ import java.io.InputStream;
 import java.io.ByteArrayInputStream;
 import java.util.regex.*;
 public class BoxProblem extends _test_runnerTestSuite {
+	public BoxProblem () {
+		super();
+	}
+}
+class _test_runnerTestSuite {
 	private final ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
 	private final PrintStream originalOut = System.out;
 	private final InputStream originalIn = System.in;
